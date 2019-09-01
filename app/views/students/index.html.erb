@@ -1,0 +1,9 @@
+<h1>Index of students</h1>
+
+<% Student.all.each do |student| %>
+    <p><%= student.first_name %></p>
+    <% end %>
+
+<% @students.each do |student| %>
+    <%= student.first_name %>
+<% end %>
